@@ -18,7 +18,7 @@ maxsum=Math.max(currsum,maxsum);
 System.out.println("maxsum array is : "+ maxsum);
     }
 public static void main(String args[]){
-int [] numb = {1,-2,8,4,5,6};
+int [] numb = {1,2,-3,4,-5,6};
 findmaxarray(numb);
 }
 
