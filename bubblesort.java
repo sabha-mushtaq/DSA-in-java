@@ -2,7 +2,9 @@
 public class bubblesort {
     public static void  sort(int [] nums){
 int n = nums.length;
+// outer loop for counting no of turns which is n-1
 for(int i = 0;i<n-1;i++){
+    // inner loop for counting swaps in a turn which is n-1-turns
 for(int j = 0;j<n-1-i;j++){
 if(nums[j]>nums[j+1]){
 int temp = nums[j];
