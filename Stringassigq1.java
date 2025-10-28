@@ -15,10 +15,20 @@ for (int i = 0; i < str.length(); i++) {
 return count;
 
     }
-    public static void main(String args[]){
-String str = "aeio u";
-System.out.println(findVowel(str));
+    
+    
 
+    public static void main(String args[]){
+String str6 = "aeio u";
+System.out.println(findVowel(str6));
+// String str = "ShradhaDidi";
+// String str1 = "ApnaCollege";
+// String str2 = "ShradhaDidi";
+// System.out.println(str.equals(str1) + " " + str.equals(str2));
+
+String str = "ApnaCollege".replace("l",
+"");
+System.out.println(str);
 
     }
 }
